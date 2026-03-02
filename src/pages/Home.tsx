@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Brain, Globe, Activity, Users, Shield, Network } from 'lucide-react';
+import SponsorsMarquee from '../components/SponsorsMarquee';
 
 const Home = () => {
   return (
@@ -174,6 +175,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <SponsorsMarquee />
     </div>
   );
 };

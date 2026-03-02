@@ -8,12 +8,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="flex flex-col gap-6">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-none bg-white flex items-center justify-center text-[#962241] font-bold font-mono">
-                IN
-              </div>
-              <span className="font-mono font-bold tracking-tight text-xl text-white">
-                FUNDACION<span className="text-[#962241] bg-white px-1 ml-1 rounded-none">INOB</span>
-              </span>
+              {/* Replace this placeholder with the direct image URL or upload the logo to the public folder */}
+              <img 
+                src="https://placehold.co/100x40/4a0e1c/ffffff?text=INOB+Logo" 
+                alt="INOB Foundation Logo" 
+                className="h-10 object-contain"
+              />
             </Link>
             <p className="text-white/80 text-sm leading-relaxed">
               Innovación Neurocientifica Operación Bolivia. Advancing neuroscience that benefits society and reflects the aspirations of all people.
@@ -26,15 +26,15 @@ export default function Footer() {
             </h4>
             <div className="flex items-center gap-3 text-white/80 text-sm hover:text-white transition-colors cursor-pointer">
               <MapPin size={16} />
-              <span>La Paz, Bolivia</span>
+              <span>Santa Cruz, Bolivia</span>
             </div>
             <div className="flex items-center gap-3 text-white/80 text-sm hover:text-white transition-colors cursor-pointer">
               <Mail size={16} />
-              <span>info@fundacioninob.org</span>
+              <span>fundacioninob@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-white/80 text-sm hover:text-white transition-colors cursor-pointer">
               <Phone size={16} />
-              <span>+591 2 123 4567</span>
+              <span>+591 70206169</span>
             </div>
           </div>
 

@@ -5,19 +5,22 @@ import { Mail, Twitter, Linkedin, Brain, Activity } from 'lucide-react';
 const About = () => {
   const team = [
     {
-      name: "Dr. Sarah Chen",
+      name: "Ninoska Ocampo-Barba",
+      role: "President",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
+      linkedin: "https://www.linkedin.com/in/ninoska-ocampo-barba-15b1001b5/"
+    },
+    {
+      name: "Flavia Ozuna Salinas",
       role: "Executive Director",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
+      linkedin: "https://www.linkedin.com/in/flavia-ozuna-salinas-a38688185/"
     },
     {
-      name: "Maria Rodriguez",
-      role: "Head of Global Policy",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop"
-    },
-    {
-      name: "Aisha Johnson",
-      role: "Community Director",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1bfa82?q=80&w=800&auto=format&fit=crop"
+      name: "Andres Aracena-Ocampo",
+      role: "Development Coordinator",
+      image: "https://images.unsplash.com/photo-1531123897727-8f129e1bfa82?q=80&w=800&auto=format&fit=crop",
+      linkedin: "https://www.linkedin.com/in/andres-aracena-ocampo-68b113257/"
     }
   ];
 
@@ -121,9 +124,8 @@ const About = () => {
                     />
                   </div>
                   <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 flex gap-3 bg-white p-3 rounded-full shadow-lg border border-gray-100">
-                    <a href="#" className="text-gray-400 hover:text-[#962241] transition-colors"><Twitter size={20} /></a>
-                    <a href="#" className="text-gray-400 hover:text-[#962241] transition-colors"><Linkedin size={20} /></a>
-                    <a href="#" className="text-gray-400 hover:text-[#962241] transition-colors"><Mail size={20} /></a>
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#962241] transition-colors"><Linkedin size={20} /></a>
+                    <a href="mailto:fundacioninob@gmail.com" className="text-gray-400 hover:text-[#962241] transition-colors"><Mail size={20} /></a>
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-[#962241] mb-2">{member.name}</h3>

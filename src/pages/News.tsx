@@ -4,6 +4,7 @@ import { Calendar, MapPin, Users, ArrowRight, Search } from 'lucide-react';
 
 const News = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [filter, setFilter] = useState('all');
 
   const events = [
     {
@@ -40,11 +41,14 @@ const News = () => {
     }
   ];
 
-  const filteredEvents = events.filter(event => 
-    event.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    event.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    event.role.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredEvents = events.filter(event => {
+    const matchesSearch = event.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          event.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          event.role.toLowerCase().includes(searchTerm.toLowerCase());
+    
+    if (filter === 'all') return matchesSearch;
+    return matchesSearch && event.status === filter;
+  });
 
   return (
     <div className="flex flex-col min-h-screen bg-[#f9e8e8]">
@@ -71,18 +75,41 @@ const News = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="max-w-2xl mx-auto relative"
+            className="max-w-2xl mx-auto relative flex flex-col gap-4"
           >
-            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <Search className="h-6 w-6 text-white/50" />
+            <div className="relative">
+              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <Search className="h-6 w-6 text-white/50" />
+              </div>
+              <input
+                type="text"
+                placeholder="Search events by title, location, or role..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full pl-12 pr-4 py-4 bg-white/10 border border-white/20 rounded-2xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 backdrop-blur-md transition-all text-lg"
+              />
             </div>
-            <input
-              type="text"
-              placeholder="Search events by title, location, or role..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-12 pr-4 py-4 bg-white/10 border border-white/20 rounded-2xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 backdrop-blur-md transition-all text-lg"
-            />
+            
+            <div className="flex justify-center gap-4 mt-2">
+              <button 
+                onClick={() => setFilter('all')}
+                className={`px-6 py-2 rounded-full font-medium transition-all ${filter === 'all' ? 'bg-white text-[#962241]' : 'bg-white/10 text-white hover:bg-white/20 border border-white/30'}`}
+              >
+                All Events
+              </button>
+              <button 
+                onClick={() => setFilter('upcoming')}
+                className={`px-6 py-2 rounded-full font-medium transition-all ${filter === 'upcoming' ? 'bg-[#2b6338] text-white' : 'bg-white/10 text-white hover:bg-white/20 border border-white/30'}`}
+              >
+                Upcoming
+              </button>
+              <button 
+                onClick={() => setFilter('past')}
+                className={`px-6 py-2 rounded-full font-medium transition-all ${filter === 'past' ? 'bg-[#962241] text-white' : 'bg-white/10 text-white hover:bg-white/20 border border-white/30'}`}
+              >
+                Past
+              </button>
+            </div>
           </motion.div>
         </div>
       </section>

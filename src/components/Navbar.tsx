@@ -19,12 +19,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-[#962241]/20 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-none bg-[#962241] flex items-center justify-center text-white font-bold font-mono">
-            IN
-          </div>
-          <span className="font-mono font-bold tracking-tight text-xl text-[#962241]">
-            FUNDACION<span className="text-[#2b6338]">INOB</span>
-          </span>
+          {/* Replace this placeholder with the direct image URL or upload the logo to the public folder */}
+          <img 
+            src="https://placehold.co/100x40/ffffff/962241?text=INOB+Logo" 
+            alt="INOB Foundation Logo" 
+            className="h-10 object-contain"
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -42,7 +42,7 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
-          <a href="mailto:info@fundacioninob.org" className="flex items-center gap-2 bg-[#962241] text-white px-4 py-2 rounded-none text-sm font-medium hover:bg-[#2b6338] transition-colors shadow-[2px_2px_0px_rgba(43,99,56,0.3)] hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[3px_3px_0px_rgba(43,99,56,0.5)]">
+          <a href="mailto:fundacioninob@gmail.com" className="flex items-center gap-2 bg-[#962241] text-white px-4 py-2 rounded-none text-sm font-medium hover:bg-[#2b6338] transition-colors shadow-[2px_2px_0px_rgba(43,99,56,0.3)] hover:translate-x-[-1px] hover:translate-y-[-1px] hover:shadow-[3px_3px_0px_rgba(43,99,56,0.5)]">
             Contact Us <ArrowRight size={16} />
           </a>
         </div>
@@ -75,7 +75,7 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <a href="mailto:info@fundacioninob.org" onClick={() => setIsOpen(false)} className="flex items-center justify-center gap-2 bg-[#962241] text-white px-4 py-3 rounded-none text-sm font-medium hover:bg-[#2b6338] transition-colors mt-4 shadow-[2px_2px_0px_rgba(43,99,56,0.3)]">
+          <a href="mailto:fundacioninob@gmail.com" onClick={() => setIsOpen(false)} className="flex items-center justify-center gap-2 bg-[#962241] text-white px-4 py-3 rounded-none text-sm font-medium hover:bg-[#2b6338] transition-colors mt-4 shadow-[2px_2px_0px_rgba(43,99,56,0.3)]">
             Contact Us <ArrowRight size={16} />
           </a>
         </motion.div>

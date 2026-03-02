@@ -68,17 +68,6 @@ const OurWork = () => {
           >
             Internationalizing neuroscience training and fostering global cooperation since 2016.
           </motion.p>
-          <motion.a 
-            href="https://photos.app.goo.gl/wo9vZ6WyW4fBNye19"
-            target="_blank"
-            rel="noopener noreferrer"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 px-6 py-3 rounded-full text-white font-medium transition-all backdrop-blur-sm"
-          >
-            View Full Photo Gallery <ExternalLink size={18} />
-          </motion.a>
         </div>
       </section>
 
