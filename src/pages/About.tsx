@@ -19,9 +19,9 @@ const About = () => {
     {
       name: "Andres Aracena-Ocampo",
       role: "Development Coordinator",
-      image: "https://images.unsplash.com/photo-1531123897727-8f129e1bfa82?q=80&w=800&auto=format&fit=crop",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczPXXKHwQe1C73ShW5lpHygy8by-9GC5X0GjqGX-yOSbk4_Zjkjo3JOPrq_t88vZQk7vIjYHjNT6HmqmQngFWnuWNnD-xQTEAKc9cpQGCDB27SkKNc8H9Aes3Z7gASf3Dx5a4QfZGx9jFApMb2T97KYk=w1034-h1378-s-no-gm?authuser=4",
       linkedin: "https://www.linkedin.com/in/andres-aracena-ocampo-68b113257/"
-    }
+    },
   ];
 
   return (

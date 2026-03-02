@@ -39,7 +39,7 @@ const Mission = () => {
             >
               <div className="h-64 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop" 
+                  src="https://lh3.googleusercontent.com/pw/AP1GczMeujOufC_ALZWW21bFwXFmpHGbtG_u1wtuoF5hhMvNGFgvEha_sMBxkMtca5UGdc5kxesPCTL5GxGHTg4jTvnsxq8c_d5niVuIoNQGplugu-4g3GhnO-m4aMNLrC13IOrnCegiQcZvI378JoPF6Zc=w1838-h1378-s-no-gm?authuser=4?q=80&w=800&auto=format&fit=crop" 
                   alt="Mission" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   referrerPolicy="no-referrer"
@@ -68,7 +68,7 @@ const Mission = () => {
             >
               <div className="h-64 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=800&auto=format&fit=crop" 
+                  src="https://lh3.googleusercontent.com/pw/AP1GczOg5lIHXP2lAQLZtv_gsBYKOMBU-Umy5WR6v8f3b9kVUHTb6XDaYwH2Z1fLiQsq7IgQDfp-iNn8zFYEnZdyM95OCOqlFWZEfMTNAk0fHZhO7fvNQmlLFbBSanlDW5ysBDnB9jp7QeQoqZQJtzWgEgs=w845-h746-s-no-gm?authuser=4?q=80&w=800&auto=format&fit=crop" 
                   alt="Vision" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   referrerPolicy="no-referrer"

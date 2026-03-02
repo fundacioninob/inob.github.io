@@ -4,47 +4,47 @@ import { Globe2, MapPin, ExternalLink } from 'lucide-react';
 
 const OurWork = () => {
   const programs = [
-    { year: "2016", country: "Colombia", desc: "Internship in Neuropsychology of older adults with neurocognitive disorders (1st version) - Pura Vida Day Care Center, Universidad Militar Nueva Granada. Experimental Neuropsychology Labs - Universidad de San Buenaventura.", image: "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?q=80&w=800&auto=format&fit=crop" },
+    { year: "2016", country: "Colombia", desc: "Internship in Neuropsychology of older adults with neurocognitive disorders (1st version) - Pura Vida Day Care Center, Universidad Militar Nueva Granada. Experimental Neuropsychology Labs - Universidad de San Buenaventura.", image: "https://lh3.googleusercontent.com/pw/AP1GczOUGyuWCRiNByH_k7rcHNoHZgr-lUedlXQbmWTXGQ8TqPC-kDm6igHcE6AfvmVq2fXys5j5CBZJV1Hks_6wG4zeJcv9JndhZRk5_HAvV1Uqcbi_BcdtPDcpKgIVyXE8JQvNuG1h9Uz_eYPAabwrNGKF=w960-h470-s-no-gm?authuser=4" },
     { year: "2017", country: "Argentina", desc: "Child Neuropsychology Internship - Universidad de Morón.", image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop" },
-    { year: "2018", country: "Guatemala", desc: "Neuropsychology of older adults with neurocognitive disorders (2nd version) - Universidad Galileo, Asociación Grupo Ermita Alzheimer Guatemala.", image: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?q=80&w=800&auto=format&fit=crop" },
-    { year: "2018", country: "Chile", desc: "Neuropsychology of older adults with neurocognitive disorders (3rd version) - Corporación Alzheimer Chile.", image: "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=800&auto=format&fit=crop" },
-    { year: "2018", country: "Peru", desc: "Clinical Neuropsychology Internship (1st version) - Institute of Memory and Depression, National Institute of Neoplastic Diseases.", image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop" },
+    { year: "2018", country: "Guatemala", desc: "Neuropsychology of older adults with neurocognitive disorders (2nd version) - Universidad Galileo, Asociación Grupo Ermita Alzheimer Guatemala.", image: "https://lh3.googleusercontent.com/pw/AP1GczMhZDYRLWdxZ4yCe0JAg_GJ6P7FzXmgnUz4LNK2tVQvbfc9L7Kwfw2uUsTVM6z8ceGgHe2xiHDjvMTDZFP1M13xE6KqXv-bkm_bNu2ljUtajdpn1EnmoPjE86Xtn_M7yVX4xWCqbjYKhFyrqbePjJj2=w1280-h629-s-no-gm?authuser=4" },
+    { year: "2018", country: "Chile", desc: "Neuropsychology of older adults with neurocognitive disorders (3rd version) - Corporación Alzheimer Chile.", image: "https://lh3.googleusercontent.com/pw/AP1GczMLlApGbkr7ztD60rZryNnPCMHYxRNtAh_yxNoy_DUDbCdZUu1cuLFRK7AI6qWNE-jRI-OOsrjcQfdyxgCKiV2XGN9hJg6bex-VOFPVQ4UlZhZ-VwtND849KfNQ3AJ-_nZCFTbv7m5Jz42j3WSdjPOb=w1158-h767-s-no-gm?authuser=4" },
+    { year: "2019", country: "Peru", desc: "Clinical Neuropsychology Internship (1st version) - Institute of Memory and Depression, National Institute of Neoplastic Diseases.", image: "https://lh3.googleusercontent.com/pw/AP1GczOzmcGGAroIUFuMs_Wq72ajB1w2D9nOmSlYGXGS0dQb-_JEsNRSRFWhQhjLGTuR0NFenCMUWzb68eHrQEllVu1vC4C06WY-pTG4H1ZsDdXRyNxYC2IWN1w_VGeFqOI3Ul0A3YZXg6kdjhrvvkZCUzMd=w960-h683-s-no-gm?authuser=4" },
     { year: "2021", country: "France", desc: "Neuroscience and Connectomics Program - Institut Pasteur.", image: "https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800&auto=format&fit=crop" },
-    { year: "2022", country: "Mexico", desc: "Molecular analysis of dementias program - National Dementia Biobank.", image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=800&auto=format&fit=crop" },
+    { year: "2022", country: "Mexico", desc: "Molecular analysis of dementias program - National Dementia Biobank.", image: "https://lh3.googleusercontent.com/pw/AP1GczN9kHk8GXOYUiwTjmEgmLZvsHo3mujGhIlu0WXUBZNcNQ0MCVgZ6sOqVRHVZqEtoxN8-jONWH7_-3kTd1nQjm0UONVGdmQ9ewsxXPY7xl3eZ9d-fIvKvUI4wZfGcPdwgNEkSEc2LItlTZRGWlQjoeai=w1600-h846-s-no-gm?authuser=4" },
     { year: "2024", country: "Ecuador", desc: "Clinical Neuropsychology Internship (2nd version) - Institute of Neurosciences, Universidad Católica de Cuenca.", image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?q=80&w=800&auto=format&fit=crop" },
-    { year: "2025", country: "Brazil", desc: "Advanced Internship Program - Instituto Santos Dumont.", image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=800&auto=format&fit=crop" }
+    { year: "2025", country: "Brazil", desc: "Neuroengineering Internship (1st version) - Edmond and Lily Safra International Institute of Neuroscience, Santos Dumont Institute.", image: "https://lh3.googleusercontent.com/pw/AP1GczOEv6wOP-jdvG69u9dJsjnYJ6tQTtuzPAJtxXHpIMr9c02AdICLBX4riVagzzbs4gjVqH6_tE8R8quZdSCHbIk1JINmgCv1_YLOUsWzn_SYU76FsCpZ4wrDDF4X6AQp99FeFsfEZQBp07n3cEhmZlE4=w528-h339-s-no-gm?authuser=4" }
   ];
 
   const projects = [
     {
       title: "ReConnection Program",
       desc: "Implement the ReConnection program to provide neuropsychological intervention to people with stroke sequelae, with the objective of improving their functionality, autonomy, and social integration through a specialized approach.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczM7k_EbArdXN-fEUR5crPMW76Dxg3CfzGCDkCW9-JeXyaQh3iDfyVf3rXfrQFbSfPw5EpJyyzZBYsLOFjSlVL1jyZjTcjjJflpIfSVo2gSfGiOSUqukjEGVlaSBC93dEI1Gi5iqRz5JKl3eQGHdz3o=w1838-h1378-s-no-gm?authuser=4"
     },
     {
       title: "Grand-monitors (Abumonitores)",
       desc: "Implement a training guide for older adults through activities and tasks of exercising and stimulating their neuropsychological functions to improve their quality of life in their role as monitors for their peers with affected cognition.",
-      image: "https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?q=80&w=800&auto=format&fit=crop"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczMMBi6261kdRkozGDpx4w--iqd_JEe598PUESZWgHW6UHYN6YDL04Ks6pmMbQkQwtm1wHHekLa_DA6RGiIrmYa27aMdZmITiKjhqUiPv2FxEMTCGvNAAIpMAsHLIgU8BnGn3btfxMB6EEKiEL6HgL0=w2169-h1378-s-no-gm?authuser=4"
     },
     {
       title: "Neuropsychological Central of Statistical Data in Bolivia",
       desc: "Systematize the indicators of the subjective complaint of Neuropsychological Dysregulation Syndrome, through a screening process in the Santa Cruz population, in order to create a database that serves for future research and facilitates the creation of a local epidemiological registry.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczPgcEakx9UBHItvLaO4XpGJYgdUh1i3Ah7KAN_RoPC-SR6IC5yfwsmiyOThWC2ZiKloiqfj09FQeUJRskMR02iTaKIwz6QdEVUGJI48_9CimiTTOTsyKudCR4NYtu04khmdsMH-FD7RYzGgl_Vc2aI=w1838-h1378-s-no-gm?authuser=4"
     },
     {
       title: "Comprehensive neuropsychological care for people with multiple disabilities",
       desc: "Determine the Neuropsychological status of people with multiple disabilities who attend the CINOMS Center, through the basic evaluation of their development to establish the baseline for future individual neuropsychological programs.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczOIqgQEEJAzGRsW08Bd3GPezJWrUvVZ5pftO6rFqqizBv2shYIX8kiYDhUkYUIy2NEyhL0V7n80niQV3BViDApNsAbBmxLns9XxKhmZXhS9A_EUybtn1Lp3JI7PE-rkbzwVd-iPqTcyEj0w3U3-QLc=w1954-h1378-s-no-gm?authuser=4"
     },
     {
       title: "Adaptation of the EDM to the 36 indigenous nations of Bolivia",
       desc: "Adapt the EDM through cultural and linguistic adaptation to the 36 indigenous nations of Bolivia to generate relevant neuropsychological tests that guarantee equitable evaluations in the detection of cognitive alterations in indigenous populations.",
-      image: "https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=800&auto=format&fit=crop"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczMJDnzOJBjhIDkFdgAVYAZzZlTHv4MARFBryBBetIw8vehZ4rryrk5wW3WNMrCLoW2tlro1X-u6ITZNprBBvG8GxbmX5FcVDkDbnjaBdi4WYfM3PtXKIxxLNF02bBiu9rVgQw_JBNn62oGFZo3-V-Y=w1902-h1378-s-no-gm?authuser=4"
     },
     {
       title: "Screening for cognitive impairment in older adults at risk in Bolivia",
       desc: "Describe the memory status of older adults living at risk in Bolivia, through the evaluation of short-term memory and long-term memory for the establishment of casuistry of cognitive impairment in this condition.",
-      image: "https://images.unsplash.com/photo-1505562134526-5c5d8fa927c8?q=80&w=800&auto=format&fit=crop"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczNVK-eWU8I7UpdQBlDf5uj477SzHIJzkTx-eeUkZ1p6NbtxSoBT5VK_vqcAQllwY9VC0sW3ijyA8uM6gAHMijVxOG1dj2JjHS_WNPMTJHOFG1r0wzDCsmCvpwYuJUQqCanawFxDRgVZPLwuMXMMsJ0=w2560-h1359-s-no-gm?authuser=4"
     }
   ];
 
