@@ -14,14 +14,14 @@ const About = () => {
     {
       name: "Flavia Ozuna Salinas",
       role: "Executive Director",
-      image: "https://lh3.googleusercontent.com/pw/AP1GczOiVor1wH7kIVVKrSEXD11297RjSfhUN-bcS1HKeQ_XasxrXOhJPmiOYoj-1GRyH33PTeVWgxCcKzddxlJN_nzaPy-dDIbaLClQ974I1YQ8n5ytYr2A_EZCFJNnNPW5YQDBy8ORUSLRydaxM7Hd6JE_=w1036-h1378-s-no-gm?authuser=4",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczN975QuTym5fp6A-pr-YSmKqEJEVrsihmeF8INTye60Z9qhK6DRYZ6l1oW0gxwM2pOsFlrfwsLnvI1mXkLAtO17b_jiJlQyAKHOOsQ-75dDFYYR7sQ6M8dx50nhEzHanNO017Ae4COd2Tm_MyQYfmHP=w498-h634-s-no-gm?authuser=4",
       linkedin: "https://www.linkedin.com/in/flavia-ozuna-salinas-a38688185/",
       email: "flavia.ozuna@inob.org.bo"
     },
     {
       name: "Andres Aracena-Ocampo",
       role: "Development Coordinator",
-      image: "https://lh3.googleusercontent.com/pw/AP1GczPXXKHwQe1C73ShW5lpHygy8by-9GC5X0GjqGX-yOSbk4_Zjkjo3JOPrq_t88vZQk7vIjYHjNT6HmqmQngFWnuWNnD-xQTEAKc9cpQGCDB27SkKNc8H9Aes3Z7gASf3Dx5a4QfZGx9jFApMb2T97KYk=w1034-h1378-s-no-gm?authuser=4",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczNxOxvyFSznookyInMOI8Le16JMygeyBvTpVX-483SbOT6KyodbmaiBhj_fMnsLmojjtUw9Rzyz1-cj3qoAnQaXSuvl5RLy_6lT9sBxO9U8ccC4_ldi55wPOgX1JvuASkJqni_v_Cn33BwVRUICrofP=w1117-h1378-s-no-gm?authuser=4",
       linkedin: "https://www.linkedin.com/in/andres-aracena-ocampo-68b113257/",
       email: "andres.aracena@inob.org.bo"
     },
@@ -89,7 +89,7 @@ const About = () => {
             >
               <div className="shape-arch overflow-hidden shadow-2xl border-8 border-white h-[500px]">
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=1000&auto=format&fit=crop" 
+                  src="https://lh3.googleusercontent.com/pw/AP1GczNWwajFvr8veHlrPE9nWilYi9bwNK4zTkSENe2yFl3KRW46M93Xfa2Q4krexiNNarv99roZnGYASbyepl_fl4bF_QvFw9AYy216RBa04ho1ar8s8rxytzYHVqgAgx-WcGJRWTBYaVJO68-unDZfU5zl=w1600-h890-s-no-gm?authuser=4" 
                   alt="Neuroscience Lab" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
