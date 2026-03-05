@@ -7,21 +7,52 @@ const About = () => {
     {
       name: "Ninoska Ocampo-Barba",
       role: "President",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
-      linkedin: "https://www.linkedin.com/in/ninoska-ocampo-barba-15b1001b5/"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczNp9e53bzRfP6mS_h1HxGUPbwwadSXrvUHigFJMrT603UxEtAc2HwFDqsm_tByM-G6bUTrAcVtnMYwSN8E4IPW4GXiZh8mPlTia3kiiCdEPKtYOOG_p6bbZedl0NPSLgwbvk-ViCK5vI5H4H9bnjg7Z=w960-h1280-s-no-gm?authuser=4",
+      linkedin: "https://www.linkedin.com/in/ninoska-ocampo-barba-15b1001b5/",
+      email: "ninoska.ocampo@inob.org.bo"
     },
     {
       name: "Flavia Ozuna Salinas",
       role: "Executive Director",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
-      linkedin: "https://www.linkedin.com/in/flavia-ozuna-salinas-a38688185/"
+      image: "https://lh3.googleusercontent.com/pw/AP1GczOiVor1wH7kIVVKrSEXD11297RjSfhUN-bcS1HKeQ_XasxrXOhJPmiOYoj-1GRyH33PTeVWgxCcKzddxlJN_nzaPy-dDIbaLClQ974I1YQ8n5ytYr2A_EZCFJNnNPW5YQDBy8ORUSLRydaxM7Hd6JE_=w1036-h1378-s-no-gm?authuser=4",
+      linkedin: "https://www.linkedin.com/in/flavia-ozuna-salinas-a38688185/",
+      email: "flavia.ozuna@inob.org.bo"
     },
     {
       name: "Andres Aracena-Ocampo",
       role: "Development Coordinator",
       image: "https://lh3.googleusercontent.com/pw/AP1GczPXXKHwQe1C73ShW5lpHygy8by-9GC5X0GjqGX-yOSbk4_Zjkjo3JOPrq_t88vZQk7vIjYHjNT6HmqmQngFWnuWNnD-xQTEAKc9cpQGCDB27SkKNc8H9Aes3Z7gASf3Dx5a4QfZGx9jFApMb2T97KYk=w1034-h1378-s-no-gm?authuser=4",
-      linkedin: "https://www.linkedin.com/in/andres-aracena-ocampo-68b113257/"
+      linkedin: "https://www.linkedin.com/in/andres-aracena-ocampo-68b113257/",
+      email: "andres.aracena@inob.org.bo"
     },
+    {
+      name: "Diana Cardenas Pereira",
+      role: "Finance Coordinator",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczNnvpJnSfmiI10SmKJhRWX-GtjSs9z496DoVRd2_xN6CYhYDXEhro0OQhatCMUqfunoofuOtATPbSMZ2SQT9zTdURa4N1WQV2ZNghBXOlM3s0HFGqEBKlcYXYt9rkPky1_HjJHpMjynov1k6vxFlM6E=w767-h1031-s-no-gm?authuser=4",
+      linkedin: "https://www.linkedin.com/in/diana-c%C3%A1rdenas-6b3563286/",
+      email: "diana.cardenas@inob.org.bo"
+    },
+    {
+      name: "Mauricio Velez Barahona",
+      role: "Project Coordinator",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczOcj0ml6oiMQr94NO_rD8Dx2bnwhVEwngthNF2IBzCytS8OQtymLYsdCCSJ0ELF1eTHbmWE9YL4PhpPtuK4WWvYOYFC656RRx05E5RhBf869DRdSwtIZ3doVPx52gf4nw0AldU34o_RbBK6gKXNEmxt=w920-h1378-s-no-gm?authuser=4",
+      linkedin: "https://www.linkedin.com/in/velez-mb/",
+      email: "mauricio.velez@inob.org.bo"
+    },
+    {
+      name: "Nicole Inclan",
+      role: "Executive Assistant",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczMmH49xt5lj7Ejp-rhl2jf-ajQJd2xIg2LDLNqaUQJ6WBrZvbr3S4S1QIeHZFPmX1A-zgbrP91sAfvQJG2As-TNteNO_G73r15JSXetdpCvxfbQAiOQI5unaoUOqqUGyxX2jOAHxjpf8hm64dqB2WT0=w523-h679-s-no-gm?authuser=4",
+      linkedin: "https://www.linkedin.com/in/nicole-inclan-652666350/",
+      email: "nicole.inclan@inob.org.bo"
+    },
+    {
+      name: "Joseph Fernandez",
+      role: "Communication Lead",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop",
+      linkedin: "",
+      email: "joseph.fernandez@inob.org.bo"
+    }
   ];
 
   return (
@@ -124,8 +155,10 @@ const About = () => {
                     />
                   </div>
                   <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 flex gap-3 bg-white p-3 rounded-full shadow-lg border border-gray-100">
-                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#962241] transition-colors"><Linkedin size={20} /></a>
-                    <a href="mailto:fundacioninob@gmail.com" className="text-gray-400 hover:text-[#962241] transition-colors"><Mail size={20} /></a>
+                    {member.linkedin && (
+                      <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#962241] transition-colors"><Linkedin size={20} /></a>
+                    )}
+                    <a href={`mailto:${member.email}`} className="text-gray-400 hover:text-[#962241] transition-colors"><Mail size={20} /></a>
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-[#962241] mb-2">{member.name}</h3>

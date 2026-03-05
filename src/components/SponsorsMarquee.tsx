@@ -5,7 +5,7 @@ const SponsorsMarquee = () => {
   const sponsors = [
     "https://lh3.googleusercontent.com/pw/AP1GczM7wm_51wD0iZRJav-5XYFzQM2-ypH_CFlwnsVxb2gO810E7Z5LjoBY9t0TgD_m1cPJpLMUxfNVsMOu7IN5F5Lc76fU2RbQX_p-1iIwnqaZH3pZ1b5OwLkegJNJG6v5HU9KdIPQGfJHXeOZDI6o3ig=w1978-h679-s-no-gm",
     "https://lh3.googleusercontent.com/pw/AP1GczOTBfCOKkrPKUh8ICsLES4esIgRoWMzVC1neYmxxT1YXqD11KY7IAL6rYKbPOTthJv1_M50ClKcJKmWN2Yacd03SV-qrZPyUV2vaAitVA7y3n-hUGmvLrfw4Z34rJjJ9r0i4CbSQOp195pDPa3XAs0=w1678-h1070-s-no-gm",
-    "https://lh3.googleusercontent.com/pw/AP1GczNW6wE5GbUNrYkiJWxoyawPHv2rn_m9Az1vEP0Fct25_vuLS6MBGRKb4cqO6sI_U2EyoNrPQqF_zxcjgFHjk_v1oJpqeR3r0x-kBvRJWtdxnaqOFF1IEkD01SH7EdBPHRk5dk9TwqPWjXvtXPgmMwo=w1614-h802-s-no-gm",
+    "https://lh3.googleusercontent.com/pw/AP1GczP0zrK8VAVRhBSi5XA0QBJ36gNgoEtx2Xx4XnEqQxe2gMGP87JG-R9F4kb3XrCw8ml0yLq9rQNi7B9aoGcF2au0hNxruKkh47VjZhmMjF3UW6XB0K5HRVhF4xe4O_cydq76apZaHrBvWzKpDHANiO4=w1345-h665-s-no-gm?authuser=4",
     "https://lh3.googleusercontent.com/pw/AP1GczN_ItEKmQ5qUyhzlk57Zy7F255de289k5PTOl-GJ7dy1rLyQTHHEQCxNKhmH2rkQAvxluaCyM2qP3sWqQmyvOFgd64uibZq7QVe0uXIIG-WbV5bqn0WG9PuJUz6OFOTMJZeiHrqIG4axVzNLxwUbMA=w1499-h859-s-no-gm",
     "https://placehold.co/200x100/f9e8e8/962241?text=Sponsor+5",
     "https://placehold.co/200x100/f9e8e8/962241?text=Sponsor+6",

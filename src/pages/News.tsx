@@ -11,7 +11,15 @@ const News = () => {
       title: "VIII National University Congress of Neuropsychology",
       date: "May 23 - 25, 2024",
       location: "Santa Cruz, Bolivia",
-      role: "Organization",
+      role: "Promoter",
+      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800&auto=format&fit=crop",
+      status: "past"
+    },
+    {
+      title: "VII Bolivian Meeting of Neuroeducation",
+      date: "September 11, 2024",
+      location: "Santa Cruz, Bolivia",
+      role: "Promoter",
       image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800&auto=format&fit=crop",
       status: "past"
     },
@@ -24,19 +32,51 @@ const News = () => {
       status: "past"
     },
     {
+      title: "II Ibero-American University of Alzheimer",
+      date: "November 26 - 29, 2024",
+      location: "Santa Cruz, Bolivia",
+      role: "Promoter",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop",
+      status: "past"
+    },
+    {
+      title: "VI National Alzheimer Conference",
+      date: "November 27, 2024",
+      location: "Santa Cruz, Bolivia",
+      role: "Promoter",
+      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800&auto=format&fit=crop",
+      status: "past"
+    },
+    {
       title: "IX National University Congress of Neuropsychology",
       date: "May 28 - 30, 2025",
       location: "Santa Cruz, Bolivia",
-      role: "Organization",
+      role: "Promoter",
       image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800&auto=format&fit=crop",
-      status: "upcoming"
+      status: "past"
+    },
+    {
+      title: "VIII Bolivian Meeting of Neuroeducation",
+      date: "October 29, 2025",
+      location: "Santa Cruz, Bolivia",
+      role: "Promoter",
+      image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800&auto=format&fit=crop",
+      status: "past"
     },
     {
       title: "I International Congress of Neurosciences",
-      date: "To Be Announced",
+      date: "November 2025",
       location: "Lima, Peru",
       role: "Participation",
       image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=800&auto=format&fit=crop",
+      status: "past"
+    },
+    {
+      title: "X National University Congress of Neuropsychology",
+      date: "May 27 - 30, 2025",
+      location: "Santa Cruz, Bolivia",
+      role: "Promoter",
+      image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800&auto=format&fit=crop",
       status: "upcoming"
     }
   ];
