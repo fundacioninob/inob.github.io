@@ -84,15 +84,18 @@ export default function Footer() {
             © 2026 Fundación INOB. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            {['Privacy Policy', 'Terms of Service', 'Accessibility'].map((link) => (
-              <a
-                key={link}
-                href="#"
-                className="text-white/60 text-xs font-mono hover:text-white transition-colors"
-              >
-                {link}
-              </a>
-            ))}
+            <Link
+              to="/privacy-policy"
+              className="text-white/60 text-xs font-mono hover:text-white transition-colors"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              to="/terms-of-service"
+              className="text-white/60 text-xs font-mono hover:text-white transition-colors"
+            >
+              Terms of Service
+            </Link>
           </div>
         </div>
       </div>

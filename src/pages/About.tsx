@@ -42,15 +42,15 @@ const About = () => {
     {
       name: "Nicole Inclan",
       role: "Executive Assistant",
-      image: "https://lh3.googleusercontent.com/pw/AP1GczMmH49xt5lj7Ejp-rhl2jf-ajQJd2xIg2LDLNqaUQJ6WBrZvbr3S4S1QIeHZFPmX1A-zgbrP91sAfvQJG2As-TNteNO_G73r15JSXetdpCvxfbQAiOQI5unaoUOqqUGyxX2jOAHxjpf8hm64dqB2WT0=w523-h679-s-no-gm?authuser=4",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczN3PwhcQNnJv-oWxj70skAnhk5yuZhU4k6bb5lAGeA_r9Zq9mVT7A-w_Bk_hPIg_Jn9zMSLpijRcYyZw8xqZTteYnz73YJxQL3xMVaTa1h2PfgF1sBlp06Sjgfgos0C38qod5zpIh3zMKWFnhGOKyVx=w523-h679-s-no-gm?authuser=4",
       linkedin: "https://www.linkedin.com/in/nicole-inclan-652666350/",
       email: "nicole.inclan@inob.org.bo"
     },
     {
       name: "Joseph Fernandez",
       role: "Communication Lead",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop",
-      linkedin: "",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczOdqJpZ3bKWcfUTsqfdUMjyOz7VnNCR9i5yifRxV-3-w9wyfEp5wiYtyIKk9m0GtTHEL93PFcCOS8yiadxXRJbKFa4X43tWGVZfr0lT7ENndZabekf-qIexdsqfC9ZqKDQkJM077RJgMdh4gAtaNTyI=w983-h1280-s-no-gm?authuser=4",
+      linkedin: "https://www.linkedin.com/in/adans-joseph-fernandez-mariscal-299661322/",
       email: "joseph.fernandez@inob.org.bo"
     }
   ];

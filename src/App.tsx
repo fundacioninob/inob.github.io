@@ -6,6 +6,8 @@ import Mission from './pages/Mission';
 import OurWork from './pages/OurWork';
 import News from './pages/News';
 import About from './pages/About';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -21,6 +23,8 @@ export default function App() {
             <Route path="/our-work" element={<OurWork />} />
             <Route path="/news" element={<News />} />
             <Route path="/about" element={<About />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
           </Routes>
         </main>
         <Footer />

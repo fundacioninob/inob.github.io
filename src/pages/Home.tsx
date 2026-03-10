@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { Brain, Globe, Activity, Users, Shield, Network } from 'lucide-react';
 import SponsorsMarquee from '../components/SponsorsMarquee';
 
@@ -25,12 +26,12 @@ const Home = () => {
               Promoting neuroscience innovation through research, intervention, and training to strengthen brain health.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="bg-white text-[#962241] px-8 py-4 rounded-full font-bold hover:bg-[#f9e8e8] transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <Link to="/our-work" className="bg-white text-[#962241] px-8 py-4 rounded-full font-bold hover:bg-[#f9e8e8] transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 Discover Our Work
-              </button>
-              <button className="bg-transparent border border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors">
+              </Link>
+              <a href="mailto:fundacioninob@gmail.com" className="bg-transparent border border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors">
                 Partner With Us
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>
