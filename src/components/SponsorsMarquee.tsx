@@ -7,8 +7,7 @@ const SponsorsMarquee = () => {
     "https://lh3.googleusercontent.com/pw/AP1GczOTBfCOKkrPKUh8ICsLES4esIgRoWMzVC1neYmxxT1YXqD11KY7IAL6rYKbPOTthJv1_M50ClKcJKmWN2Yacd03SV-qrZPyUV2vaAitVA7y3n-hUGmvLrfw4Z34rJjJ9r0i4CbSQOp195pDPa3XAs0=w1678-h1070-s-no-gm",
     "https://lh3.googleusercontent.com/pw/AP1GczP0zrK8VAVRhBSi5XA0QBJ36gNgoEtx2Xx4XnEqQxe2gMGP87JG-R9F4kb3XrCw8ml0yLq9rQNi7B9aoGcF2au0hNxruKkh47VjZhmMjF3UW6XB0K5HRVhF4xe4O_cydq76apZaHrBvWzKpDHANiO4=w1345-h665-s-no-gm?authuser=4",
     "https://lh3.googleusercontent.com/pw/AP1GczN_ItEKmQ5qUyhzlk57Zy7F255de289k5PTOl-GJ7dy1rLyQTHHEQCxNKhmH2rkQAvxluaCyM2qP3sWqQmyvOFgd64uibZq7QVe0uXIIG-WbV5bqn0WG9PuJUz6OFOTMJZeiHrqIG4axVzNLxwUbMA=w1499-h859-s-no-gm",
-    "https://placehold.co/200x100/f9e8e8/962241?text=Sponsor+5",
-    "https://placehold.co/200x100/f9e8e8/962241?text=Sponsor+6",
+    "https://lh3.googleusercontent.com/pw/AP1GczOhbtlk9RsmfcTQU1Wr3XGquACYvoOjAndZFTTUQfwo37i6ws-zfRBuVt8DsFQjnxlzSRZFb5lyZ3NdEyHwR8VsKhN20yekqnTkdqtr4J8zXFK35bt8C8hgJDZsALzpXUnoNJO8d-_2oOBqrSTGUBRF=w512-h350-s-no-gm?authuser=4"
   ];
 
   return (
