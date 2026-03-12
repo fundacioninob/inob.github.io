@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="py-20 relative bg-luxury-abstract rounded-t-[3rem] mt-auto overflow-hidden">
+    <footer className="py-12 relative bg-luxury-abstract rounded-t-[3rem] mt-auto overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-8">
           <div className="flex flex-col gap-6">
             <Link to="/" className="flex items-center gap-2">
               {/* Replace this placeholder with the direct image URL or upload the logo to the public folder */}
               <img 
-                src="https://lh3.googleusercontent.com/pw/AP1GczNQdrci158dViFKeLpbr_ifM1xFwxJepxFOkCGZliYmfBuzboq6rLyCBptfHUcC67W6OYBMCjSGnj6_CD_6xbQAerCMpMV2fWCV8HWr1pdWpwMMNBT0Wx2tGcoeIopgbXXTrrGVTuwGLpSD5_L0iR4=w1011-h1378-s-no-gm" 
+                src="https://lh3.googleusercontent.com/pw/AP1GczNjd8RQGgG9QX_4N2UGb0dSqwzHv8uSYZ-8fMP9zm32qKCpxnq8aEt35PYlPKmJf84ibGBu2IMy5jQCdmlDdLH9GtgkxkJzqzhVk7mpmiMPglBU71DFF7pb21PQv0P25c2LWAA1nEpONpjnna9nk9aO=w834-h834-s-no-gm?authuser=2" 
                 alt="INOB Foundation Logo" 
-                className="h-10 object-contain"
+                className="h-16 object-contain"
               />
             </Link>
             <p className="text-white/80 text-sm leading-relaxed">

@@ -137,10 +137,10 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Global Importance</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-6">Global Impact</h2>
               <div className="w-20 h-1 bg-white/30 mb-8"></div>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                INOB can position itself as a Latin American reference in neuroscience innovation with global impact. At an international level, the INOB Foundation is relevant because:
+                INOB can position itself as a Latin American reference in neuroscience innovation with global Importance. At an international level, the INOB Foundation is relevant because:
               </p>
               <ul className="space-y-6">
                 {[

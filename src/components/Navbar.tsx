@@ -21,9 +21,9 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-2">
           {/* Replace this placeholder with the direct image URL or upload the logo to the public folder */}
           <img 
-            src="https://lh3.googleusercontent.com/pw/AP1GczNQdrci158dViFKeLpbr_ifM1xFwxJepxFOkCGZliYmfBuzboq6rLyCBptfHUcC67W6OYBMCjSGnj6_CD_6xbQAerCMpMV2fWCV8HWr1pdWpwMMNBT0Wx2tGcoeIopgbXXTrrGVTuwGLpSD5_L0iR4=w1011-h1378-s-no-gm" 
+            src="https://lh3.googleusercontent.com/pw/AP1GczOnIyfdypPsQ0CO0C5jvPStTqudTm80zANvTnbmiOimXcoDV2yZ1JYtbDtt12GaYNnSgfwWs2Jj4s30l986rsDO2mfyJWttQv2_Doe8CVjqRGYxEStmsUYGWCk1W9PXjTWZyfpFZN9_b14fPf-bVthN=w819-h819-s-no-gm?authuser=2" 
             alt="INOB Foundation Logo" 
-            className="h-10 object-contain"
+            className="h-16 object-contain"
           />
         </Link>
 
