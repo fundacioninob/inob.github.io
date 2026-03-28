@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Globe2, MapPin, ExternalLink } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const OurWork = () => {
   const programs = [
@@ -50,6 +51,11 @@ const OurWork = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#f9e8e8]">
+      <SEO 
+        title="Our Work - Fundación INOB" 
+        description="Explore the projects, international programs, and internships driven by the INOB Foundation to foster global neuroscience cooperation."
+        url="https://inob.org.bo/our-work"
+      />
       <section className="bg-luxury-abstract text-white py-32 lg:py-40 rounded-b-[3rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 pattern-stripes opacity-20"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

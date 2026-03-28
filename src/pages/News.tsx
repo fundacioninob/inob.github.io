@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Calendar, MapPin, Users, ArrowRight, Search } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const News = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -92,6 +93,11 @@ const News = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#f9e8e8]">
+      <SEO 
+        title="Events & Congresses - Fundación INOB" 
+        description="Join us in our upcoming events and explore our past participations in the global neuroscience community."
+        url="https://inob.org.bo/news"
+      />
       <section className="bg-luxury-abstract text-white py-32 lg:py-40 rounded-b-[3rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 pattern-zigzag opacity-20"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

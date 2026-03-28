@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://inob.org.bo/sitemap.xml

@@ -3,10 +3,16 @@ import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { Brain, Globe, Activity, Users, Shield, Network } from 'lucide-react';
 import SponsorsMarquee from '../components/SponsorsMarquee';
+import SEO from '../components/SEO';
 
 const Home = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#f9e8e8]">
+      <SEO 
+        title="Fundación INOB - Neuroscience Innovation Operation Bolivia" 
+        description="A Bolivian Neuroscientific Foundation advancing research and society. Promoting neuroscience innovation through research, intervention, and training to strengthen brain health."
+        url="https://inob.org.bo/"
+      />
       {/* Hero Section */}
       <section className="bg-luxury-abstract text-white py-32 lg:py-48 rounded-b-[3rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 pattern-wavy opacity-20"></div>

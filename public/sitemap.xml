@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://inob.org.bo/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://inob.org.bo/mission</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://inob.org.bo/our-work</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://inob.org.bo/news</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://inob.org.bo/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://inob.org.bo/privacy-policy</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://inob.org.bo/terms-of-service</loc>
+    <priority>0.5</priority>
+  </url>
+</urlset>

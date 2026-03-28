@@ -1,9 +1,15 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import SEO from '../components/SEO';
 
 const PrivacyPolicy = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#f9e8e8]">
+      <SEO 
+        title="Privacy Policy - Fundación INOB" 
+        description="Read the Privacy Policy of the INOB Foundation to understand how we collect, use, and protect your personal data."
+        url="https://inob.org.bo/privacy-policy"
+      />
       <section className="bg-luxury-abstract text-white py-32 lg:py-40 rounded-b-[3rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 pattern-grid opacity-20"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">

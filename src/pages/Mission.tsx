@@ -1,10 +1,16 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Target, Eye, FlaskConical, ShieldAlert, GraduationCap, Handshake, Coins, Megaphone } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Mission = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[#f9e8e8]">
+      <SEO 
+        title="Mission & Vision - Fundación INOB" 
+        description="Learn about the mission, vision, and specific objectives of the INOB Foundation in advancing neuroscience in Latin America."
+        url="https://inob.org.bo/mission"
+      />
       {/* Header */}
       <section className="bg-luxury-abstract text-white py-32 lg:py-40 rounded-b-[3rem] shadow-2xl relative overflow-hidden">
         <div className="absolute inset-0 pattern-arcs opacity-20"></div>
