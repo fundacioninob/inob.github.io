@@ -74,7 +74,7 @@ const Home = () => {
             >
               <div className="shape-arch overflow-hidden shadow-2xl border-8 border-white">
                 <img 
-                  src="https://lh3.googleusercontent.com/pw/AP1GczO0q3Q2fMbEZPLI65JY7AfDNdv8HFJP59dXbi3CQOqttiFz-umBMrRYsuOOjz9s3zyYiIqdeRhbbpqkWuQJRUNAqhygmzPVQK30CSyF4-6iP9mW6DnP29FHmvCszJFtYGdIoJkEm0W06WSU7yfAP647=w2560-h1349-s-no-gm?authuser=4" 
+                  src="https://lh3.googleusercontent.com/pw/AP1GczPqMYalWq2YqOlD9ySB_Eqr8vfiEjXWtn47qpRzx85006ZAVvJ-jcu3gx5YekGXmN1ptPdTvhZbIhMbXKm9heBR1qvG5FItShHiBRi-wD8NyQ3wBoHUMYRUpnSuyS_MqqUFQ_BKjl7llHmO92HxHtz9=w2560-h1301-s-no-gm?authuser=2" 
                   alt="Neuroscience Research" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
