@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { Calendar, MapPin, Users, ArrowRight, Search } from 'lucide-react';
 import SEO from '../components/SEO';
 
@@ -8,6 +9,15 @@ const News = () => {
   const [filter, setFilter] = useState('all');
 
   const events = [
+    {
+      title: "Latin American School on Neuropsychology, Aging and Brain Health",
+      date: "February 15 - 19",
+      location: "Institute of Behavioral Neurosciences",
+      role: "Promoter",
+      image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=800&auto=format&fit=crop",
+      status: "upcoming",
+      link: "/events/lasnabh"
+    },
     {
       title: "VIII National University Congress of Neuropsychology",
       date: "May 23 - 25, 2024",
@@ -212,9 +222,15 @@ const News = () => {
                     Role: {event.role}
                   </div>
                   
-                  <button className="inline-flex items-center gap-2 text-[#2b6338] font-bold hover:text-[#1e4627] transition-colors w-fit group/btn">
-                    View Details <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
-                  </button>
+                  {event.link ? (
+                    <Link to={event.link} className="inline-flex items-center gap-2 text-[#2b6338] font-bold hover:text-[#1e4627] transition-colors w-fit group/btn">
+                      View Details <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
+                    </Link>
+                  ) : (
+                    <button className="inline-flex items-center gap-2 text-[#2b6338] font-bold hover:text-[#1e4627] transition-colors w-fit group/btn">
+                      View Details <ArrowRight size={20} className="group-hover/btn:translate-x-1 transition-transform" />
+                    </button>
+                  )}
                 </div>
               </motion.div>
             ))}

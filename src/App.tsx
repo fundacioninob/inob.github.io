@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Mission from './pages/Mission';
 import OurWork from './pages/OurWork';
 import News from './pages/News';
+import Lasnabh from './pages/Lasnabh';
 import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
@@ -24,6 +25,7 @@ export default function App() {
               <Route path="/mission" element={<Mission />} />
               <Route path="/our-work" element={<OurWork />} />
               <Route path="/news" element={<News />} />
+              <Route path="/events/lasnabh" element={<Lasnabh />} />
               <Route path="/about" element={<About />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-service" element={<TermsOfService />} />
